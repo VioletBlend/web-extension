@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Instaviewer",
+  "version": "1.0.0",
+  "description": "A Chrome extension to instagram viewer",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.piokok.com/*"
+  ]
+}
